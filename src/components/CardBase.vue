@@ -6,7 +6,7 @@
     <div class="avatar-group -space-x-6">
       <div v-for="character in characterFilter" class="avatar">
         <div class="w-12">
-          <img :src="getImage(character)" />
+          <img :src="getImage(character)" :alt="character" />
         </div>
       </div>
 

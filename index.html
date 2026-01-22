@@ -1,10 +1,82 @@
-<!DOCTYPE html>
-<html lang="">
+<!doctype html>
+<html lang="pt-BR">
   <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Básico -->
+    <title>Rick and Morty - Explore Personagens, Episódios e Universo</title>
+    <meta
+      name="description"
+      content="Descubra todos os personagens, episódios e localizações do universo Rick and Morty. Explore dimensões infinitas com informações detalhadas sobre a série animada de sucesso."
+    />
+    <meta
+      name="keywords"
+      content="Rick and Morty, personagens Rick and Morty, episódios, série animada, Rick Sanchez, Morty Smith, Adult Swim"
+    />
+    <meta name="author" content="Seu Nome" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://seudominio.com.br" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mvp-daisyui-rm.netlify.app/" />
+    <meta
+      property="og:title"
+      content="Rick and Morty - Explore Personagens, Episódios e Universo"
+    />
+    <meta
+      property="og:description"
+      content="Descubra todos os personagens, episódios e localizações do universo Rick and Morty. Explore dimensões infinitas com informações detalhadas."
+    />
+    <meta property="og:image" content="https://seudominio.com.br/og-image.jpg" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Rick and Morty Explorer" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://seudominio.com.br" />
+    <meta
+      name="twitter:title"
+      content="Rick and Morty - Explore Personagens, Episódios e Universo"
+    />
+    <meta
+      name="twitter:description"
+      content="Descubra todos os personagens, episódios e localizações do universo Rick and Morty."
+    />
+    <meta name="twitter:image" content="https://seudominio.com.br/twitter-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#97ce4c" />
+    <meta name="msapplication-TileColor" content="#97ce4c" />
+
+    <!-- Preconnect para melhorar performance -->
+    <link rel="preconnect" href="https://rickandmortyapi.com" />
+    <link rel="dns-prefetch" href="https://rickandmortyapi.com" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Rick and Morty Explorer",
+        "description": "Explore o universo de Rick and Morty com informações sobre personagens, episódios e localizações",
+        "url": "https://seudominio.com.br",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://seudominio.com.br/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="app"></div>
