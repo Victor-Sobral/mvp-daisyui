@@ -4,4 +4,7 @@ import LayoutDefault from './layouts/LayoutDefault.vue'
 
 <template>
   <LayoutDefault />
+  <div id="app">
+    <router-view />
+  </div>
 </template>
